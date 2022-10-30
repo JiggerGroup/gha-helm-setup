@@ -4,3 +4,7 @@ author: 'JiggerGroup'
 runs:
   using: 'node12'
   main: 'dist/index.js'
+inputs:
+  version:
+    description: Version of Helm you would like to install
+    required: true
